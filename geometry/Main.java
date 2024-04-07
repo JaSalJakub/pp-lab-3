@@ -1,7 +1,6 @@
 package geometry;
 public class Main {
     public static void main(String[] args) {
-        // Tworzenie obiektu klasy ColoredCircle
         ColoredCircle coloredCircle1 = new ColoredCircle(5.0, "Czerwony");
         ColoredCircle coloredCircle2 = new ColoredCircle(3.0, "Niebieski");
 
@@ -20,7 +19,6 @@ public class Main {
 
         Square square = new Square(4.0);
 
-        // Wyświetlanie właściwości kwadratu
         System.out.println("Squre:");
         System.out.println("Długość boku: " + square.getLength());
         System.out.println("Szerokość boku: " + square.getWidth());
@@ -28,10 +26,8 @@ public class Main {
         System.out.println("Obwód kwadratu: " + square.calculatePerimeter());
         System.out.println();
 
-        // Tworzenie obiektu klasy Rectangle
         Rectangle rectangle = new Rectangle(4.0, 6.0);
 
-        // Wyświetlanie właściwości prostokąta
         System.out.println("Rectangle:");
         System.out.println("Długość: " + rectangle.getLength());
         System.out.println("Szerokość: " + rectangle.getWidth());
