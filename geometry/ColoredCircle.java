@@ -1,7 +1,7 @@
 package geometry;
 public class ColoredCircle extends Circle {
     public ColoredCircle(double radius, String color) {
-        super(radius, color); // Wywołujemy konstruktor bez podawania punktu środkowego
+        super(radius, color); 
     }
 
     public static void main(String[] args) {
