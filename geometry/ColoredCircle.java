@@ -3,7 +3,7 @@ public class ColoredCircle extends Circle {
     private String color;
 
     public ColoredCircle(double radius, String color) {
-        super(radius, color); // Wywołujemy konstruktor klasy bazowej Circle z odpowiednimi parametrami
+        super(radius, color); 
         this.color = color;
     }
 
